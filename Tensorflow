@@ -6,5 +6,20 @@ what is tensorflow?
                      tensor
                       flow: data flow graph 
                       
- Tensorflow core programs consists of two discrete sections:1).Building a computational g4raph
+ Tensorflow core programs consists of two discrete sections:1).Building a computational graph
                                                             2).Running a computational graph
+
+
+A computational graph is a series of tensorflow operations arranged into a graph of nodes ointo a graph of nodes :
+     let`s build a simple computational graph .
+     each node takes zero or more tensors as inputs and produces a tensor as an output.
+     
+     
+     
+                                  :----        
+                                  :             import tensorflow as tf
+                                  :             node 1 = tf.constant(3.0,tf.float32)---------:
+     bulding a computational graph:                                                          :---------constant nodes
+                                  :             node 2 = tf.constant(4.0)--------------------:                                 
+                                  :             print(node1,node2);                          
+                                  :----         
