@@ -1,0 +1,10 @@
+what is tensorflow?
+                    Tensorflow are the standard way of reresenting data in deep learning;
+                    tensors are just multidimensional arraysm, an extension of two-dimensional tables(matrices) to data with higher
+                      dimension.
+                      
+                     tensor
+                      flow: data flow graph 
+                      
+ Tensorflow core programs consists of two discrete sections:1).Building a computational g4raph
+                                                            2).Running a computational graph
