@@ -61,5 +61,5 @@ A session encapsulates the control and state of the Tensorflow runtime
   A graph can be parameterized to accept external inputs ,know as plceholder;
   A placeholder is a promise to provide a value later;
   
-  
+          
   
